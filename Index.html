@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Honk&display=swap" rel="stylesheet">
+    <title>Hangman Game</title>
+</head>
+<body>
+    <h1>HANGMAN GAME</h1>
+    <div id="difficulty-container">
+        <label id="choose-difficulty">Choose difficulty:</label>
+        <select id="difficulty-select">
+            <option value="easy">Easy</option>
+            <option value="moderate">Moderate</option>
+            <option value="difficult">Difficult</option>
+        </select>
+        <button id="start-game-btn">Start Game</button>
+    </div>
+    <div id="hangman-container" style="display:none;">
+        <div id="question"></div>
+        <div id="word-display"></div>
+        <div id="guesses-left">Guesses Left: <span id="guesses">3</span></div>
+        <div id="score">Score: <span id="points">0</span></div>
+        <div id="clue-container">
+            <button id="clue-btn">Get Clue</button>
+            <div id="clue"></div>
+        </div>
+        <div id="letters"></div>
+        <button id="new-game">New Game</button>
+    </div>
+    <script src="script.js"></script>
+    <footer id="names">
+        <p>Abdullah, Mark Justin | Boncayao, Jesus</p>
+        <p>Dalumpines, Ian | Dapiton, Ryan | Quiambao, Lance Harvey</p>
+    </footer>
+</body>
+</html>

@@ -1,0 +1,77 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    background-image: url(background.jpg);
+    background-position: center;
+    background-size: auto;
+    overflow: hidden;
+    width: 100%;
+    height: 100vh;
+}
+h1 {
+    font-family: 'Honk', system-ui;
+    font-size: 70px;
+    margin-top: 10px;
+}
+#difficulty-select {
+    color: #68112A;
+}
+#choose-difficulty {
+    color: #390917;
+}
+#hangman-container {
+    margin-top: 40px;
+}
+#question {
+    margin-top: 20px;
+    color: aliceblue;
+    font-size: 18px;
+    margin-bottom: 20px;
+}
+#word-display {
+    color: rgb(0, 0, 0);
+    font-size: 24px;
+    margin-bottom: 20px;
+    display: inline-block;
+
+}
+#guesses-left, #score {
+    color: aliceblue;
+    font-size: 18px;
+    margin-bottom: 20px;
+}
+#clue-container {
+    margin-bottom: 20px;
+    color: aliceblue;
+}
+#letters, button {
+    margin-bottom: 20px;
+    background: none;
+    font-size: 10px;
+    font-family: "montserrat";
+    border-color: azure;
+    color: aliceblue;
+    cursor: pointer;
+    padding: 10px 20px;
+    margin: 5px;
+}
+button {
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 6px;
+    height: 40px;
+}
+button:hover{
+    background-color: aliceblue;
+    color: rgb(0, 0, 0);
+    transition: background-color;
+}
+
+
+#difficulty-container {
+    margin-bottom: 20px;
+}
+ #names {
+    color: aliceblue;
+ }
